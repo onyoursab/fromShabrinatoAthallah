@@ -1,0 +1,67 @@
+body {
+  font-family: 'Courier New', monospace;
+  background: #fff0f5;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+  color: #333;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #c71585;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.buttons button {
+  background-color: #ff69b4;
+  color: white;
+  padding: 10px 15px;
+  margin: 5px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.buttons button:hover {
+  background-color: #ff1493;
+}
+
+.photo-box {
+  margin-top: 20px;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+}
+
+.photo-box img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.photo-box p {
+  font-size: 1.2em;
+  color: #6a0dad;
+}
+
+.message-box {
+  margin-top: 30px;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid #ff69b4;
+  resize: none;
+  font-size: 1em;
+}
